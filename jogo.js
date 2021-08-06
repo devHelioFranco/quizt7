@@ -102,7 +102,7 @@ dados[0] === 'pizza' && dados[1] === 'refri' && dados[2] === 'dormir' && dados[3
 dados[0] === 'lasanha' && dados[1] === 'suco' && dados[2] === 'filme' && dados[3] === 'engracado' ? url = './images/img9.jpg'  :
 dados[0] === 'lasanha' && dados[1] === 'cerveja' && dados[2] === 'musica' && dados[3] === 'engracado' ? url = './images/elder.jpg'  :
 dados[0] === 'lasanha' && dados[1] === 'suco' && dados[2] === 'dormir' && dados[3] === 'engracado' ? url = './images/thom.jpg'  :
-dados[0] === 'churrasco' && dados[1] === 'suco' && dados[2] === 'filme' && dados[3] === 'ranzina' ? url = './images/marim.jpg'  :
+dados[0] === 'churrasco' && dados[1] === 'suco' && dados[2] === 'filme' && dados[3] === 'ranzinza' ? url = './images/marim.jpg'  :
 dados[0] === 'churrasco' && dados[1] === 'cafe' && dados[2] === 'musica' && dados[3] === 'engracado' ? url = './images/img4.jpg'  : alert("Prince Andrews achei você!")
 
 
