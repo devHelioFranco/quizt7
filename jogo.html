@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T7</title>
+  <link rel="stylesheet" href="jogo.css">
+  <script src="jogo.js" defer ></script>
+</head>
+<body>
+    <header = class="cabecalho">
+      <h1>Quem você é na T7?</h1>
+      <p>Descubra qual membro da turma 7 você é!</p>
+    </header>
+      <div class="container">
+       <fieldset id="fieldset">
+         <form class="form-container">
+          <h2>Qual sua comida favorita?</h2>
+
+            <input type="radio" class="check" name="comida" value="pizza" onclick="func()">
+              <label for="pizza"> Pizza </label>
+            <input type="radio" class="check" name="comida" value="lasanha" onclick="func()">
+               <label for="lasanha"> Lasanha </label>
+            <input type="radio" class="check" name="comida" value="japa" onclick="func()">
+              <label for="japa">Japonês</label>
+            <input type="radio" class="check" name="comida" value="churrasco" onclick="func()">
+              <label for="churrasco">Churrasco</label>
+<br>
+          <h2>Qual sua bebida favorita?</h2>
+          <div id="comida1">
+          <input type="radio" id="suco" class="check" name="bebida" value="suco" onclick="func1()">
+            <label for="suco">Suco</label>
+          <input type="radio" id="cafe" name="bebida"class="check" value="cafe" onclick="func1()">  
+            <label for="cafe">Café</label>
+          <input type="radio" id="refri" name="bebida"class="check" value="refri" onclick="func1()">  
+            <label for="refri">Refrigerante</label>
+          <input type="radio" id="cerveja" name="bebida" class="check" value="cerveja" onclick="func1()" >
+            <label for="cerveja">Cerveja</label> 
+           </div> <br>
+          <h2>Qual é o seu Hobbie?</h2>  
+          <input type="radio" id="dormir" class="check" name="hobbie" value="dormir" onclick="func2()">
+            <label for="dormir">Dormir</label>
+          <input type="radio" id="jogar" name="hobbie" class="check" value="jogar" onclick="func2()">  
+            <label for="jogar">Jogar</label>
+          <input type="radio" id="musica" name="hobbie" class="check" value="musica"onclick="func2()">  
+            <label for="musica">Ouvir Musica</label>
+          <input type="radio" id="filme" name="hobbie" class="check" value="filme" onclick="func2()">
+            <label for="filme">Assistir Filmes/Series</label>
+<br>    
+          <h2>Como você é?</h2>
+          <input type="radio" id="preguiçoso" name="humor"class="check" value="preguiçoso"onclick= "func3()">
+            <label for="preguiçoso">Preguiçoso</label>
+          <input type="radio" id="engracado" name="humor"class="check" value="engracado"onclick= "func3()">
+            <label for="engracado">Engraçado</label>
+          <input type="radio" id="ranzinza" name="humor"class="check" value="ranzinza"onclick= "func3()">
+            <label for="ranzinza">Ranzinza</label>
+          <input type="radio" id="motivado" name="humor" class="check"value="motivado"onclick= "func3()">
+            <label for="motivado">Motivado</label>
+            <br>
+            <br>
+            <button type="button" onclick ="descubra ()">Descubra</button>
+         </form>
+         </fieldset>
+          </div>
+          
+
+          
+  </body>
+</html>

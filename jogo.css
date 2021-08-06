@@ -1,0 +1,24 @@
+body {
+    background-image: url("baack.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: sans-serif;
+}
+.cabecalho {
+    text-align: center;
+}
+.container {
+    box-shadow: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+fieldset {
+    background-color: rgb(250, 208, 0);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.993);
+    background-size: 100% 100%;
+}

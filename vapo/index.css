@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+    font-family: Helvetica;
+    }
+#main {
+    width: 60%;
+    border: 1px gray solid;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    }
+    
+    #header {
+    margin-top: 0;
+    border: 2px solid black;
+    padding: 5px;
+    height: 250px;
+    }
+    
+    label {
+    width: 150px;
+    display: inline-block;
+    }
+    
+    button {
+    display: block;
+    margin-top: 20px;
+    
+    }

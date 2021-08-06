@@ -1,0 +1,6 @@
+#image_shower {
+    width: 350px;
+    height: 350px;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 20px;
+}
